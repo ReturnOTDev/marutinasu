@@ -1,0 +1,54 @@
+@import "./burger";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Nunito", sans-serif;
+}
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+.mobile-hide {
+    display: none;
+}
+
+header {
+    background: url("../assets/bg.png") no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+nav::after {
+    content: " ";
+    background: white;
+    opacity: 0.95;
+    width: 100vw;
+    height: 6rem;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+nav .container {
+    padding-top: 1rem;
+}
+.logo {
+    position: relative;
+    z-index: 1;
+}
+nav {
+    position: fixed;
+    width: 100vw;
+}
+.large-gap {
+    margin-bottom: 10rem;
+}
+.small-gap {
+    margin-bottom: 5rem;
+}
