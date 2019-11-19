@@ -132,17 +132,18 @@ footer {
 
 .scroll-middle {
     animation: scroll 2s ease infinite;
+    transform: translateX(38%);
 }
 
 @keyframes scroll {
     0% {
-        transform: translateX(155px) translateY(860px);
+        transform: translateX(38%) translateY(5px);
     }
     80% {
-        transform: translateX(155px) translateY(880px);
+        transform: translateX(38%) translateY(25px);
     }
     100% {
-        transform: translateX(155px) translateY(880px);
+        transform: translateX(38%) translateY(25px);
     }
 }
 
