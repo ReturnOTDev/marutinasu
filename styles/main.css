@@ -414,24 +414,6 @@ header {
   overflow: hidden;
 }
 
-nav::after {
-  content: " ";
-  background: white;
-  opacity: 0.95;
-  width: 100vw;
-  height: 6rem;
-  position: absolute;
-  top: 0;
-  z-index: 0;
-}
-
-nav .container {
-  padding-top: 1rem;
-  -webkit-transform: translateY(0.25rem);
-          transform: translateY(0.25rem);
-  z-index: 1;
-}
-
 .logo {
   position: relative;
   z-index: 1;
@@ -440,6 +422,16 @@ nav .container {
 nav {
   position: fixed;
   width: 100vw;
+  background: white;
+  opacity: 0.95;
+  height: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .container {
+  z-index: 1;
 }
 
 .large-gap {
@@ -667,24 +659,6 @@ header {
   overflow: hidden;
 }
 
-nav::after {
-  content: " ";
-  background: white;
-  opacity: 0.95;
-  width: 100vw;
-  height: 6rem;
-  position: absolute;
-  top: 0;
-  z-index: 0;
-}
-
-nav .container {
-  padding-top: 1rem;
-  -webkit-transform: translateY(0.25rem);
-          transform: translateY(0.25rem);
-  z-index: 1;
-}
-
 .logo {
   position: relative;
   z-index: 1;
@@ -693,6 +667,16 @@ nav .container {
 nav {
   position: fixed;
   width: 100vw;
+  background: white;
+  opacity: 0.95;
+  height: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .container {
+  z-index: 1;
 }
 
 .large-gap {
@@ -978,6 +962,57 @@ footer h4 {
   100% {
     -webkit-transform: translateX(155px) translateY(880px);
             transform: translateX(155px) translateY(880px);
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .descriptor p {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .toggler,
+  .hamburger {
+    display: none;
+  }
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: static;
+    height: auto;
+    width: auto;
+    -webkit-clip-path: none;
+            clip-path: none;
+    background: none;
+    margin: 0;
+    -webkit-transform: none;
+            transform: none;
+  }
+  .menu ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .menu ul li {
+    color: black;
+    margin: 0;
+    font-size: 1.4rem;
+    margin-left: 3rem;
+  }
+  .cta-btn {
+    width: 50%;
+    margin: 2.5rem auto 0;
+  }
+  form input {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 /2;
+  }
+  form input:last-of-type {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
   }
 }
 /*# sourceMappingURL=main.css.map */
