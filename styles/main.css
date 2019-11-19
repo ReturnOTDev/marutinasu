@@ -758,41 +758,6 @@ h2 {
           transform: translateY(15vh);
 }
 
-.landing-content svg .scroll_anim {
-  -webkit-animation: scroll 2s ease infinite;
-          animation: scroll 2s ease infinite;
-}
-
-@-webkit-keyframes scroll {
-  0% {
-    -webkit-transform: translate(155px, 860px);
-            transform: translate(155px, 860px);
-  }
-  80% {
-    -webkit-transform: translate(155px, 880px);
-            transform: translate(155px, 880px);
-  }
-  100% {
-    -webkit-transform: translate(155px, 880px);
-            transform: translate(155px, 880px);
-  }
-}
-
-@keyframes scroll {
-  0% {
-    -webkit-transform: translate(155px, 860px);
-            transform: translate(155px, 860px);
-  }
-  80% {
-    -webkit-transform: translate(155px, 880px);
-            transform: translate(155px, 880px);
-  }
-  100% {
-    -webkit-transform: translate(155px, 880px);
-            transform: translate(155px, 880px);
-  }
-}
-
 .descriptor {
   margin-bottom: 5rem;
   text-align: center;
@@ -984,6 +949,21 @@ footer h4 {
 .scroll-middle {
   -webkit-animation: scroll 2s ease infinite;
           animation: scroll 2s ease infinite;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(155px) translateY(860px);
+            transform: translateX(155px) translateY(860px);
+  }
+  80% {
+    -webkit-transform: translateX(155px) translateY(880px);
+            transform: translateX(155px) translateY(880px);
+  }
+  100% {
+    -webkit-transform: translateX(155px) translateY(880px);
+            transform: translateX(155px) translateY(880px);
+  }
 }
 
 @keyframes scroll {

@@ -39,18 +39,4 @@ h2 {
 .landing-content svg {
     margin: 0 auto;
     transform: translateY(15vh);
-    .scroll_anim {
-        animation: scroll 2s ease infinite;
-    }
-}
-@keyframes scroll {
-    0% {
-        transform: translate(155px, 860px);
-    }
-    80% {
-        transform: translate(155px, 880px);
-    }
-    100% {
-        transform: translate(155px, 880px);
-    }
 }
