@@ -3,6 +3,11 @@
         max-width: 50%;
         margin: 0 auto;
     }
+    .contact-descriptor {
+        p {
+            max-width: 100%;
+        }
+    }
     .toggler,
     .hamburger {
         display: none;
