@@ -37,6 +37,8 @@ nav::after {
 }
 nav .container {
     padding-top: 1rem;
+    transform: translateY(0.25rem);
+    z-index: 1;
 }
 .logo {
     position: relative;

@@ -427,6 +427,9 @@ nav::after {
 
 nav .container {
   padding-top: 1rem;
+  -webkit-transform: translateY(0.25rem);
+          transform: translateY(0.25rem);
+  z-index: 1;
 }
 
 .logo {
@@ -677,6 +680,9 @@ nav::after {
 
 nav .container {
   padding-top: 1rem;
+  -webkit-transform: translateY(0.25rem);
+          transform: translateY(0.25rem);
+  z-index: 1;
 }
 
 .logo {
@@ -862,7 +868,7 @@ h3 span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
 }
 
 .contact-descriptor h3 {
@@ -896,6 +902,7 @@ textarea {
   border: none;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Nunito", sans-serif;
 }
 
 textarea {
@@ -906,11 +913,11 @@ textarea {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-column: 1 / 3;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   background: #00d181;
   border: none;
   color: white;
-  padding: 0.5rem 0;
+  padding: 0.75rem 0;
   border-radius: 2.5px;
   margin-top: 1rem;
   letter-spacing: 1px;
@@ -972,5 +979,25 @@ footer h4 {
 
 .social img:hover {
   opacity: 1;
+}
+
+.scroll-middle {
+  -webkit-animation: scroll 2s ease infinite;
+          animation: scroll 2s ease infinite;
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(155px) translateY(860px);
+            transform: translateX(155px) translateY(860px);
+  }
+  80% {
+    -webkit-transform: translateX(155px) translateY(880px);
+            transform: translateX(155px) translateY(880px);
+  }
+  100% {
+    -webkit-transform: translateX(155px) translateY(880px);
+            transform: translateX(155px) translateY(880px);
+  }
 }
 /*# sourceMappingURL=main.css.map */
