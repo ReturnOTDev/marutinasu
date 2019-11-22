@@ -37,6 +37,7 @@ h3 {
         z-index: -1;
     }
 }
+
 .service-icons {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -77,6 +78,7 @@ textarea {
     border: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-family: "Nunito", sans-serif;
+    border: 1px solid rgba(199, 199, 199, 0.178);
 }
 textarea {
     max-width: 100%;
@@ -146,5 +148,23 @@ footer {
         transform: translateX(38%) translateY(25px);
     }
 }
+.creator-link {
+    text-align: center;
+    cursor: pointer;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
 
+.contact-descriptor .social {
+    grid-column: 2/3;
+    justify-self: end;
+    flex-direction: row;
+    a {
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+    }
+}
 @import "./resM";
+@import "./resL";
