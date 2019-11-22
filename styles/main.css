@@ -1003,6 +1003,10 @@ footer h4 {
   margin-left: 1rem;
 }
 
+.logo-contact {
+  height: 4rem;
+}
+
 @media only screen and (min-width: 750px) {
   .descriptor p {
     max-width: 50%;
@@ -1237,6 +1241,9 @@ footer h4 {
   }
   .contact-descriptor .social a img {
     height: 2rem;
+  }
+  .logo-contact {
+    height: 8rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
