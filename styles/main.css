@@ -1069,6 +1069,7 @@ footer h4 {
   }
   .menu ul li {
     margin-left: 7rem;
+    font-size: 1.2rem;
   }
   h1 {
     font-size: 12rem;
@@ -1205,10 +1206,6 @@ footer h4 {
   .contact-descriptor {
     margin-bottom: 5rem;
   }
-  .services-descriptor,
-  .contact-descriptor {
-    margin-bottom: 6rem;
-  }
   .services-descriptor::after,
   .contact-descriptor::after {
     top: 3rem;
@@ -1259,6 +1256,11 @@ footer h4 {
   }
   footer p {
     font-size: 1.2rem;
+  }
+  .contact-descriptor .social {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
   .contact-descriptor .social a {
     margin-top: 1rem;

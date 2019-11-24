@@ -4,6 +4,7 @@
     }
     .menu ul li {
         margin-left: 7rem;
+        font-size: 1.2rem;
     }
     h1 {
         font-size: 12rem;
@@ -125,11 +126,6 @@
     .services-descriptor,
     .contact-descriptor {
         margin-bottom: 5rem;
-    }
-
-    .services-descriptor,
-    .contact-descriptor {
-        margin-bottom: 6rem;
         &::after {
             top: 3rem;
         }
@@ -195,6 +191,7 @@
                 height: 2rem;
             }
         }
+        justify-content: flex-end;
     }
 
     .logo-contact {
