@@ -447,6 +447,11 @@ nav .container {
   display: none;
 }
 
+.about h1 {
+  margin: 10rem auto;
+  margin-top: 0;
+}
+
 nav {
   top: 0;
   left: 0;
@@ -695,6 +700,11 @@ nav .container {
 
 .descriptor-wImg img {
   display: none;
+}
+
+.about h1 {
+  margin: 10rem auto;
+  margin-top: 0;
 }
 
 header {
