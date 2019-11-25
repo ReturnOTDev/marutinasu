@@ -50,8 +50,10 @@
         row-gap: 5rem;
     }
     .img {
-        height: 20rem;
-        width: 20rem;
+        height: 15vw;
+        width: 15vw;
+        max-height: 20rem;
+        max-width: 20rem;
         clip-path: polygon(
             50% 0%,
             100% 25%,
@@ -77,7 +79,7 @@
             margin-bottom: 0;
         }
     }
-    .end-group {
+    .first-group {
         .img:first-of-type {
             background: url("../assets/1.png") center center/cover;
             margin-right: 5rem;
@@ -102,8 +104,20 @@
             transform: rotate(180deg);
         }
         .img:last-of-type {
-            background: url("../assets/5.png") center center/cover;
+            background: url("../assets/6.jpg") center center/cover;
             transform: rotate(180deg);
+        }
+    }
+    .end-group {
+        .img:first-of-type {
+            background: url("../assets/7.jpg") center center/cover;
+            margin-right: 5rem;
+        }
+        .img:nth-of-type(2) {
+            background: url("../assets/8.jpg") center center/cover;
+        }
+        .img:last-of-type {
+            background: url("../assets/9.jpg") center center/cover;
         }
     }
     .desc-1 {

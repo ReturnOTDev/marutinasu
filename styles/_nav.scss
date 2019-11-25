@@ -10,6 +10,12 @@ html {
 body {
     font-family: "Nunito", sans-serif;
 }
+.large-gap {
+    margin-bottom: 10rem;
+}
+.small-gap {
+    margin-bottom: 5rem;
+}
 .container {
     margin: 0 auto;
     width: 80%;
@@ -41,16 +47,6 @@ nav {
 nav .container {
     z-index: 1;
 }
-.large-gap {
-    margin-bottom: 10rem;
-}
-.small-gap {
-    margin-bottom: 5rem;
-}
 .descriptor-wImg img {
     display: none;
-}
-.about h1 {
-    margin: 10rem auto;
-    margin-top: 0;
 }

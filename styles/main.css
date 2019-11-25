@@ -398,6 +398,14 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+.large-gap {
+  margin-bottom: 10rem;
+}
+
+.small-gap {
+  margin-bottom: 5rem;
+}
+
 .container {
   margin: 0 auto;
   width: 80%;
@@ -435,21 +443,8 @@ nav .container {
   z-index: 1;
 }
 
-.large-gap {
-  margin-bottom: 10rem;
-}
-
-.small-gap {
-  margin-bottom: 5rem;
-}
-
 .descriptor-wImg img {
   display: none;
-}
-
-.about h1 {
-  margin: 10rem auto;
-  margin-top: 0;
 }
 
 nav {
@@ -653,6 +648,14 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+.large-gap {
+  margin-bottom: 10rem;
+}
+
+.small-gap {
+  margin-bottom: 5rem;
+}
+
 .container {
   margin: 0 auto;
   width: 80%;
@@ -690,21 +693,8 @@ nav .container {
   z-index: 1;
 }
 
-.large-gap {
-  margin-bottom: 10rem;
-}
-
-.small-gap {
-  margin-bottom: 5rem;
-}
-
 .descriptor-wImg img {
   display: none;
-}
-
-.about h1 {
-  margin: 10rem auto;
-  margin-top: 0;
 }
 
 header {
@@ -733,6 +723,7 @@ header {
 
 h1 {
   font-size: 5rem;
+  text-align: center;
 }
 
 h2 {
@@ -1129,8 +1120,10 @@ footer h4 {
     row-gap: 5rem;
   }
   .img {
-    height: 20rem;
-    width: 20rem;
+    height: 15vw;
+    width: 15vw;
+    max-height: 20rem;
+    max-width: 20rem;
     -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
             clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   }
@@ -1154,14 +1147,14 @@ footer h4 {
     margin: -1.5rem auto;
     margin-bottom: 0;
   }
-  .end-group .img:first-of-type {
+  .first-group .img:first-of-type {
     background: url("../assets/1.png") center center/cover;
     margin-right: 5rem;
   }
-  .end-group .img:nth-of-type(2) {
+  .first-group .img:nth-of-type(2) {
     background: url("../assets/2.png") center center/cover;
   }
-  .end-group .img:last-of-type {
+  .first-group .img:last-of-type {
     background: url("../assets/3.png") center center/cover;
   }
   .middle-group {
@@ -1181,9 +1174,19 @@ footer h4 {
             transform: rotate(180deg);
   }
   .middle-group .img:last-of-type {
-    background: url("../assets/5.png") center center/cover;
+    background: url("../assets/6.jpg") center center/cover;
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
+  }
+  .end-group .img:first-of-type {
+    background: url("../assets/7.jpg") center center/cover;
+    margin-right: 5rem;
+  }
+  .end-group .img:nth-of-type(2) {
+    background: url("../assets/8.jpg") center center/cover;
+  }
+  .end-group .img:last-of-type {
+    background: url("../assets/9.jpg") center center/cover;
   }
   .desc-1 {
     -ms-flex-item-align: center;
