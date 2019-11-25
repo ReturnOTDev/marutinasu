@@ -28,11 +28,7 @@ home.forEach(link => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     });
 });
-homeCta.forEach(link => {
-    link.addEventListener("click", () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    });
-});
 setLink(about, aboutLocation);
 setLink(services, servicesLocation);
 setLink(contact, contactLocation);
+setLink(contactCta, contactLocation);
