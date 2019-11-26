@@ -75,14 +75,14 @@
         overflow: hidden;
 
         .img:last-of-type {
-            margin: -1.5rem auto;
+            margin: -3rem auto;
             margin-bottom: 0;
         }
     }
     .first-group {
         .img:first-of-type {
             background: url("../assets/1.png") center center/cover;
-            margin-right: 5rem;
+            margin-right: 2.5rem;
         }
         .img:nth-of-type(2) {
             background: url("../assets/2.png") center center/cover;
@@ -96,7 +96,7 @@
         .img:first-of-type {
             background: url("../assets/4.png") center center / cover;
             transform: rotate(180deg);
-            margin-right: 5rem;
+            margin-right: 2.5rem;
             background-size: cover;
         }
         .img:nth-of-type(2) {
@@ -111,7 +111,7 @@
     .end-group {
         .img:first-of-type {
             background: url("../assets/7.jpg") center center/cover;
-            margin-right: 5rem;
+            margin-right: 2.5rem;
         }
         .img:nth-of-type(2) {
             background: url("../assets/8.jpg") center center/cover;

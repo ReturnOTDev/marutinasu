@@ -1144,12 +1144,12 @@ footer h4 {
     overflow: hidden;
   }
   .img-group .img:last-of-type {
-    margin: -1.5rem auto;
+    margin: -3rem auto;
     margin-bottom: 0;
   }
   .first-group .img:first-of-type {
     background: url("../assets/1.png") center center/cover;
-    margin-right: 5rem;
+    margin-right: 2.5rem;
   }
   .first-group .img:nth-of-type(2) {
     background: url("../assets/2.png") center center/cover;
@@ -1165,7 +1165,7 @@ footer h4 {
     background: url("../assets/4.png") center center/cover;
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
-    margin-right: 5rem;
+    margin-right: 2.5rem;
     background-size: cover;
   }
   .middle-group .img:nth-of-type(2) {
@@ -1180,7 +1180,7 @@ footer h4 {
   }
   .end-group .img:first-of-type {
     background: url("../assets/7.jpg") center center/cover;
-    margin-right: 5rem;
+    margin-right: 2.5rem;
   }
   .end-group .img:nth-of-type(2) {
     background: url("../assets/8.jpg") center center/cover;
@@ -1284,6 +1284,54 @@ footer h4 {
   }
   .logo-contact {
     height: 8rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  h1 {
+    font-size: 17rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  .large-bottom {
+    margin-bottom: 20rem;
+  }
+  .menu ul li {
+    margin-left: 7rem;
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-size: 12rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+    margin-bottom: 2.5rem;
+  }
+  h3,
+  .descriptor h3 {
+    font-size: 4.5rem;
+  }
+  h3 span,
+  .descriptor h3 span {
+    font-size: 6rem;
+  }
+  p {
+    font-size: 2.2rem;
+    line-height: 5rem;
+  }
+  .cta-btn {
+    width: 50rem;
+    font-size: 3.2rem;
+  }
+  .large-gap {
+    margin-bottom: 25rem;
+  }
+  .contact-descriptor .social a img {
+    height: 2.5rem;
+  }
+  .contact-descriptor p {
+    line-height: 4rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
