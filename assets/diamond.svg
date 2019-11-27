@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="44.946" height="34.179" viewBox="0 0 44.946 34.179">
   <g id="diamond" transform="translate(2 2)">
     <path id="Diamond-2" data-name="Diamond" d="M57.855,30.257l-9.609-9.091L47.824,21H27.083l-.409.155-9.583,9.1a.271.271,0,0,0,0,.41L37.063,50.934a.641.641,0,0,0,.806,0L57.843,30.668A.271.271,0,0,0,57.855,30.257Z" transform="translate(-16.997 -21)" fill="#b20037" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
-    <line id="Line_8" data-name="Line 8" x2="40.944" transform="translate(0.004 10.011)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+    <line id="Line_8" data-name="Line 8" x2="40.944" transform="translate(0.004 10.011)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.5"/>
   </g>
 </svg>

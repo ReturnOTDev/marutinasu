@@ -47,7 +47,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 10rem;
-        row-gap: 5rem;
+        row-gap: 10rem;
     }
     .img {
         height: 15vw;
@@ -75,14 +75,16 @@
         overflow: hidden;
 
         .img:last-of-type {
-            margin: -3rem auto;
+            margin: -2.25rem auto;
             margin-bottom: 0;
+        }
+        .img:first-of-type {
+            margin-right: 2rem;
         }
     }
     .first-group {
         .img:first-of-type {
             background: url("../assets/1.png") center center/cover;
-            margin-right: 2.5rem;
         }
         .img:nth-of-type(2) {
             background: url("../assets/2.png") center center/cover;
@@ -96,8 +98,6 @@
         .img:first-of-type {
             background: url("../assets/4.png") center center / cover;
             transform: rotate(180deg);
-            margin-right: 2.5rem;
-            background-size: cover;
         }
         .img:nth-of-type(2) {
             background: url("../assets/5.png") center center/cover;
@@ -111,7 +111,6 @@
     .end-group {
         .img:first-of-type {
             background: url("../assets/7.jpg") center center/cover;
-            margin-right: 2.5rem;
         }
         .img:nth-of-type(2) {
             background: url("../assets/8.jpg") center center/cover;
@@ -176,6 +175,7 @@
     }
 
     .service-icons {
+        row-gap: 2.5rem;
         .icon {
             justify-content: flex-end;
             img {
@@ -210,5 +210,24 @@
 
     .logo-contact {
         height: 8rem;
+    }
+
+    footer {
+        a {
+            font-size: 1.2rem;
+
+            p {
+                line-height: 2rem;
+            }
+        }
+        p {
+            font-size: 1.2rem;
+        }
+        h4 {
+            font-size: 1.4rem;
+        }
+    }
+    .submit {
+        margin-bottom: 2.5rem;
     }
 }

@@ -754,7 +754,6 @@ h2 {
 }
 
 .descriptor {
-  margin-bottom: 5rem;
   text-align: center;
 }
 
@@ -918,13 +917,17 @@ footer h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.social a {
+  margin-left: 1rem;
 }
 
 .social img {
@@ -989,28 +992,23 @@ footer h4 {
   color: black;
 }
 
-.contact-descriptor .social {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
-  -ms-grid-column-align: end;
-      justify-self: end;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.contact-descriptor .social a {
-  margin-top: 0.5rem;
-  margin-left: 1rem;
-}
-
 .logo-contact {
   height: 4rem;
 }
 
-@media only screen and (min-width: 750px) {
+.disclaimer {
+  opacity: 0.5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+}
+
+.descriptor-wImg .descriptor,
+.services-descriptor {
+  margin-bottom: 5rem;
+}
+
+@media only screen and (min-width: 700px) {
   .descriptor p {
     max-width: 50%;
     margin: 0 auto;
@@ -1117,7 +1115,7 @@ footer h4 {
         grid-template-columns: 1fr 1fr;
     -webkit-column-gap: 10rem;
             column-gap: 10rem;
-    row-gap: 5rem;
+    row-gap: 10rem;
   }
   .img {
     height: 15vw;
@@ -1144,12 +1142,14 @@ footer h4 {
     overflow: hidden;
   }
   .img-group .img:last-of-type {
-    margin: -3rem auto;
+    margin: -2.25rem auto;
     margin-bottom: 0;
+  }
+  .img-group .img:first-of-type {
+    margin-right: 2rem;
   }
   .first-group .img:first-of-type {
     background: url("../assets/1.png") center center/cover;
-    margin-right: 2.5rem;
   }
   .first-group .img:nth-of-type(2) {
     background: url("../assets/2.png") center center/cover;
@@ -1165,8 +1165,6 @@ footer h4 {
     background: url("../assets/4.png") center center/cover;
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
-    margin-right: 2.5rem;
-    background-size: cover;
   }
   .middle-group .img:nth-of-type(2) {
     background: url("../assets/5.png") center center/cover;
@@ -1180,7 +1178,6 @@ footer h4 {
   }
   .end-group .img:first-of-type {
     background: url("../assets/7.jpg") center center/cover;
-    margin-right: 2.5rem;
   }
   .end-group .img:nth-of-type(2) {
     background: url("../assets/8.jpg") center center/cover;
@@ -1251,6 +1248,9 @@ footer h4 {
     font-size: 2.2rem;
     padding: 1.5rem 0;
   }
+  .service-icons {
+    row-gap: 2.5rem;
+  }
   .service-icons .icon {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
@@ -1284,6 +1284,21 @@ footer h4 {
   }
   .logo-contact {
     height: 8rem;
+  }
+  footer a {
+    font-size: 1.2rem;
+  }
+  footer a p {
+    line-height: 2rem;
+  }
+  footer p {
+    font-size: 1.2rem;
+  }
+  footer h4 {
+    font-size: 1.4rem;
+  }
+  .submit {
+    margin-bottom: 2.5rem;
   }
 }
 
@@ -1398,4 +1413,19 @@ footer h4 {
   .creator-link {
     font-size: 1.6rem;
   }
+  footer p {
+    font-size: 1.6rem;
+  }
+  footer a {
+    font-size: 1.8rem;
+  }
+  footer a p {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+  footer h4 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
 }
+/*# sourceMappingURL=main.css.map */

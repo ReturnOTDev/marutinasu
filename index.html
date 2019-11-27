@@ -187,17 +187,27 @@
 
                 <form netlify name="Contact Form">
                     <input
+                        required
                         type="text"
                         name="Name"
                         placeholder="Name / Business"
                     />
-                    <input type="text" name="Email" placeholder="Email" />
+                    <input
+                        required
+                        type="text"
+                        name="Email"
+                        placeholder="Email"
+                    />
                     <textarea
+                        required
                         name="Message"
                         rows="8"
                         placeholder="Message..."
                     ></textarea>
                     <button class="submit">Send</button>
+                    <p class="disclaimer">
+                        * We will respond to all emails within 24 hours
+                    </p>
                 </form>
             </div>
         </section>

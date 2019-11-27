@@ -1,120 +1,137 @@
 @media only screen and (min-width: 1600px) {
-	h1 {
-		font-size: 15rem;
-	}
-	h2 {
-		font-size: 3.5rem;
-		margin-bottom: 2.5rem;
-	}
-	.large-bottom {
-		margin-bottom: 20rem;
-	}
-	.menu ul li {
-		margin-left: 7rem;
-		font-size: 1.6rem;
-	}
-	h3,
-	.descriptor h3 {
-		font-size: 4.5rem;
-		span {
-			font-size: 6rem;
-		}
-	}
-	p {
-		font-size: 2.2rem;
-		line-height: 5rem;
-	}
-	.cta-btn {
-		width: 50rem;
-		font-size: 3.2rem;
-	}
-	.large-gap {
-		margin-bottom: 25rem;
-	}
-	.contact-descriptor .social a img {
-		height: 2.5rem;
-	}
-	.contact-descriptor p {
-		line-height: 4rem;
-	}
+    h1 {
+        font-size: 15rem;
+    }
+    h2 {
+        font-size: 3.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .large-bottom {
+        margin-bottom: 20rem;
+    }
+    .menu ul li {
+        margin-left: 7rem;
+        font-size: 1.6rem;
+    }
+    h3,
+    .descriptor h3 {
+        font-size: 4.5rem;
+        span {
+            font-size: 6rem;
+        }
+    }
+    p {
+        font-size: 2.2rem;
+        line-height: 5rem;
+    }
+    .cta-btn {
+        width: 50rem;
+        font-size: 3.2rem;
+    }
+    .large-gap {
+        margin-bottom: 25rem;
+    }
+    .contact-descriptor .social a img {
+        height: 2.5rem;
+    }
+    .contact-descriptor p {
+        line-height: 4rem;
+    }
 
-	nav {
-		height: 8rem;
-	}
-	.logo {
-		width: 18rem;
-	}
-	.menu ul li {
-		margin-left: 10rem;
-	}
-	.landing-content svg {
-		transform: translateY(15vh) scale(1.5);
-	}
+    nav {
+        height: 8rem;
+    }
+    .logo {
+        width: 18rem;
+    }
+    .menu ul li {
+        margin-left: 10rem;
+    }
+    .landing-content svg {
+        transform: translateY(15vh) scale(1.5);
+    }
 
-	p {
-		font-size: 2.2rem;
-	}
-	.img {
-		height: 30rem;
-		width: 30rem;
-		max-height: 30rem;
-		max-width: 30rem;
-	}
-	.first-group,
-	.middle-group,
-	.end-group {
-		.img:first-of-type {
-			margin-right: 7rem;
-		}
-	}
+    p {
+        font-size: 2.2rem;
+    }
+    .img {
+        height: 30rem;
+        width: 30rem;
+        max-height: 30rem;
+        max-width: 30rem;
+    }
+    .first-group,
+    .middle-group,
+    .end-group {
+        .img:first-of-type {
+            margin-right: 7rem;
+        }
+    }
 
-	.descriptor h3 {
-		font-size: 6rem;
-	}
+    .descriptor h3 {
+        font-size: 6rem;
+    }
 
-	.services-descriptor,
-	.contact-descriptor {
-		&::after {
-			top: 4rem;
-		}
-		margin-bottom: 10rem;
-	}
+    .services-descriptor,
+    .contact-descriptor {
+        &::after {
+            top: 4rem;
+        }
+        margin-bottom: 10rem;
+    }
 
-	.service-icons {
-		max-width: 50%;
-		margin: 0 auto;
-	}
+    .service-icons {
+        max-width: 50%;
+        margin: 0 auto;
+    }
 
-	.contact-descriptor p {
-		font-size: 2rem;
-		:last-of-type {
-			margin-bottom: 1rem;
-		}
-	}
-	.logo-contact {
-		height: 10rem;
-	}
+    .contact-descriptor p {
+        font-size: 2rem;
+        :last-of-type {
+            margin-bottom: 1rem;
+        }
+    }
+    .logo-contact {
+        height: 10rem;
+    }
 
-	input,
-	textarea {
-		font-size: 2rem;
-		padding: 2rem;
-	}
-	textarea {
-		height: 25rem;
-	}
-	.submit {
-		width: 50%;
-		margin: 2.5rem auto;
-		margin-bottom: 0;
-		font-size: 2.6rem;
-	}
-	.contact-descriptor {
-		.social a {
-			margin-left: 3rem;
-		}
-	}
-	.creator-link {
-		font-size: 1.6rem;
-	}
+    input,
+    textarea {
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    textarea {
+        height: 25rem;
+    }
+    .submit {
+        width: 50%;
+        margin: 2.5rem auto;
+        margin-bottom: 0;
+        font-size: 2.6rem;
+    }
+    .contact-descriptor {
+        .social a {
+            margin-left: 3rem;
+        }
+    }
+    .creator-link {
+        font-size: 1.6rem;
+    }
+
+    footer {
+        p {
+            font-size: 1.6rem;
+        }
+        a {
+            font-size: 1.8rem;
+            p {
+                font-size: 1.6rem;
+                margin-bottom: 0.5rem;
+            }
+        }
+        h4 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+    }
 }
