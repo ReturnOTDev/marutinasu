@@ -426,6 +426,7 @@ header {
 .logo {
   position: relative;
   z-index: 1;
+  width: 12rem;
 }
 
 nav {
@@ -676,6 +677,7 @@ header {
 .logo {
   position: relative;
   z-index: 1;
+  width: 12rem;
 }
 
 nav {
@@ -1287,7 +1289,7 @@ footer h4 {
     margin-bottom: 3rem;
   }
   .contact-descriptor .logo {
-    width: 20rem;
+    width: 15rem;
   }
   .contact-descriptor p {
     line-height: 3rem;
